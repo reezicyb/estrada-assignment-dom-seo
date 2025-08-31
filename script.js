@@ -7,6 +7,7 @@ document.getElementById("changeTextBtn").addEventListener("click", function() {
     }
 });
 
+
 document.getElementById("addItemBtn").addEventListener("click", function() {
   let newItem = document.createElement("li");
   newItem.textContent = "New favorite manhwa";
